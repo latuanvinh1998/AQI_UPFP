@@ -1,0 +1,12 @@
+20200228_121924A.jpg,R_low_car,0.8333333333333331,R_high_person,0.5000000000000001,R_high_motorcycle,0.5000000000000001,S_high_road,1,S_low_building,0.927944607204861,S_low_sidewalk,1,S_low_car,1,Haze_lv2,0.66,100
+20200228_121826A.jpg,R_high_person,1,R_med_motorcycle,0.7941176470588237,S_high_road,1,S_med_person,0.618896484375,S_low_building,0.902309841579861,S_low_van,0.9706013997395834,Haze_lv2,0.85,110
+20200228_121729A.jpg,R_high_person,1,R_high_motorcycle,0.75,S_high_road,1,S_med_building,0.51483154296875,Haze_lv1,0.93,120
+20200228_121815A.jpg,R_high_person,0.8218390804597702,R_high_motorcycle,0.5919540229885056,S_high_road,1,S_low_building,1,S_low_minibike,1,S_low_person,1,Haze_lv1,0.89,130
+20200228_121838A.jpg,R_high_person,0.6111111111111112,R_med_car,0.5000000000000001,R_med_motorcycle,0.9444444444444446,S_high_road,1,S_low_building,1,Haze_lv5,0.74,140
+20200228_121935A.jpg,R_med_person,0.7380952380952381,R_high_motorcycle,1,R_low_car,0.7380952380952381,S_high_road,1,S_low_building,0.5200263129340277,S_low_sidewalk,1,Haze_lv5,0.74,150
+20200228_121901A.jpg,R_med_car,0.7857142857142857,R_med_person,0.7380952380952381,R_low_motorcycle,0.7380952380952381,R_low_truck,1,S_high_road,1,Haze_lv5,0.74,160
+20200228_121740A.jpg,R_med_person,0.8846153846153848,R_high_motorcycle,1,S_high_road,1,S_med_building,0.986328125,S_low_minibike,1,Haze_lv5,0.74,170
+20200228_121803A.jpg,R_high_person,0.6290322580645162,R_med_car,0.5537634408602151,R_med_motorcycle,0.5537634408602151,S_high_sidewalk,1,S_low_person,1,S_low_road,1,Haze_lv5,0.74,180
+20200228_121849A.jpg,R_low_person,0.8333333333333331,R_high_motorcycle,1,R_med_car,0.8333333333333334,S_high_road,1,S_low_building,1,Haze_lv5,0.74,190
+20200228_121752A.jpg,S_high_road,1,S_high_building,1,Haze_lv5,0.74,200
+20200228_121912A.jpg,R_med_person,0.7857142857142857,R_low_motorcycle,1,R_high_car,0.6904761904761902,S_high_road,1,S_low_building,1,Haze_lv5,0.74,210
