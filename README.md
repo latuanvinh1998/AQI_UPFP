@@ -11,9 +11,12 @@
 - --path_img: path to image folder, example Data_Img/
 - --ins_model: path to instance segmentation model, download [PointRed Model](https://github.com/ayoolaolafenwa/PixelLib/releases/download/0.2.0/pointrend_resnet50.pkl)
 - --seg_model: path to instance segmentation model, download [here](https://github.com/ayoolaolafenwa/PixelLib/releases/download/1.3/deeplabv3_xception65_ade20k.h5)
+- --output_path: Folder to contain transaction file.
+- --pm25: path to pm25 file. example Data/pm25.txt
+- --haze: Use haze features or not, boolean type.
+- --haze_file: path to haze file, example Data/haze.txt
 ```sh
-git clone https://github.com/CuteBoiz/JetsonNano-ArcFace
-cd JetsonNano-ArcFace
+python create_transaction.py --path_img Data_Img --ins_model pointrend_resnet50.pkl --seg_model deeplabv3_xception65_ade20k.h5 --out_path Data --pm25 Data/pm25.txt --haze True --haze_file Data/haze.txt
 ```
 
 ### Step 2: Edit CmakeLists.txt
