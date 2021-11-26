@@ -41,13 +41,5 @@ python create_transaction.py --path_img Data_Img --ins_model pointrend_resnet50.
 python inference.py input_image Data_Img/20200228_121729A.jpg --model_path Model/model.pth --mined_pattern Data/result.txt --ins_model pointrend_resnet50.pkl --seg_model deeplabv3_xception65_ade20k.h5
 ```
 
-## References
-- [MTCNN](https://github.com/kpzhang93/MTCNN_face_detection_alignment)
-- [Arcface](https://arxiv.org/abs/1801.07698)
-- [MobileFaceNets](https://arxiv.org/abs/1804.07573)
-- [libSVM](https://www.csie.ntu.edu.tw/~cjlin/libsvm/)
-
-## To-Do
-- [ ] Convert all engine to onnx.
-- [ ] Add export TensorRT engine.
-- [ ] Add Non GUI Inference code.
+## V. Generate haze file:
+  - Input folder is define as Data_Img and must be same location with haze.R, the output will be haze.txt and use for create_transaction.py \[--haze_file]
