@@ -7,6 +7,8 @@
   ```sh
   python train_efficient.py --path Data/Data_Train.txt -- num_cls 6
   ```
+### Model will save in Model/model.pth
+
 ## II. Create Transaction
 - --path_img: path to image folder, example Data_Img/
 - --ins_model: path to instance segmentation model, download [PointRed Model](https://github.com/ayoolaolafenwa/PixelLib/releases/download/0.2.0/pointrend_resnet50.pkl)
