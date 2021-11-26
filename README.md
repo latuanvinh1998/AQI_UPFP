@@ -9,8 +9,8 @@
   ```
 ## II. Create Transaction
 - --path_img: path to image folder, example Data_Img/
-- --ins_model: path to instance segmentation model, download [PointRed Model] (https://github.com/ayoolaolafenwa/PixelLib/releases/download/0.2.0/pointrend_resnet50.pkl)
-- --seg_model: path to instance segmentation model, download [PointRed Model] (https://github.com/ayoolaolafenwa/PixelLib/releases/download/0.2.0/pointrend_resnet50.pkl)
+- --ins_model: path to instance segmentation model, download [PointRed Model](https://github.com/ayoolaolafenwa/PixelLib/releases/download/0.2.0/pointrend_resnet50.pkl)
+- --seg_model: path to instance segmentation model, download [here](https://github.com/ayoolaolafenwa/PixelLib/releases/download/1.3/deeplabv3_xception65_ade20k.h5)
 ```sh
 git clone https://github.com/CuteBoiz/JetsonNano-ArcFace
 cd JetsonNano-ArcFace
