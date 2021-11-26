@@ -46,5 +46,5 @@ python inference.py input_image Data_Img/20200228_121729A.jpg --model_path Model
   - Input folder is define as Data_Img and must be same location with haze.R, the output will be haze.txt and use for create_transaction.py \[--haze_file]
   - PM25.txt file contain image name associate with PM25 value and distinct by comma ",".
 
-### Source code is not fully optimize, if you have any problem or question, please contact direcly with me by Skype
+### Source code is not fully optimized, if you have any problem or questions, please contact directly with me by Skype
 #### My skype: live:latuanvinh1998
