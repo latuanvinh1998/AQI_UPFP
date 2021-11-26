@@ -5,19 +5,12 @@
 - --num_cls: number of class to classify, in this case is 6, because there are 6 level of PM25
 - lr, epoch, cuda, batch_size: option setting
   ```sh
-  sudo apt -y install cmake cmake-gui cmake-qt-gui
-  sudo apt -y install qtbase5-dev
-  sudo apt-get -y install qtdeclarative5-dev
-  
-  sudo apt -y install libcrypto++-dev 
-  sudo apt -y install libgoogle-glog-dev 
-  sudo apt -y install libgflags-dev
-  sudo apt -y install --no-install-recommends libboost-all-dev
+  python train_efficient.py --path Data/Data_Train.txt -- num_cls 6
   ```
-*If you are using Jetson you don't have to install Cuda/CuDNN/TensorRT.*
-
-## II. Clone & Run
-### Step 1: Clone project:
+## II. Create Transaction
+- --path_img: path to image folder, example Data_Img/
+- --ins_model: path to instance segmentation model, download [PointRed Model] (https://github.com/ayoolaolafenwa/PixelLib/releases/download/0.2.0/pointrend_resnet50.pkl)
+- --seg_model: path to instance segmentation model, download [PointRed Model] (https://github.com/ayoolaolafenwa/PixelLib/releases/download/0.2.0/pointrend_resnet50.pkl)
 ```sh
 git clone https://github.com/CuteBoiz/JetsonNano-ArcFace
 cd JetsonNano-ArcFace
