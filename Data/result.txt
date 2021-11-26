@@ -1,0 +1,10 @@
+R_high_motorcycle PM25_lv4 S_high_road :[1051.6702422399153, 201] 
+S_med_building PM25_lv4 S_high_road :[1499.9325188379569, 201] 
+S_med_building Foggy PM25_lv4 :[1188.9663711112164, 213] 
+S_med_building PM25_lv4 S_high_road R_high_person :[1208.2192302790188, 247] 
+S_med_building PM25_lv4 R_high_person :[1579.3961639122488, 247] 
+S_low_sidewalk Foggy PM25_lv4 :[1516.2330195923307, 191] 
+S_low_sidewalk Foggy PM25_lv4 S_high_road :[1124.259390557364, 247] 
+S_low_sidewalk Foggy PM25_lv4 R_high_person :[1213.9642442865404, 196] 
+S_low_sidewalk PM25_lv4 S_high_road :[1608.2291826237001, 184] 
+S_low_sidewalk PM25_lv4 S_high_road R_high_person :[1254.210307748122,

@@ -196,7 +196,7 @@ def generate_file(args):
 
 if __name__ == '__main__':
 	parser = argparse.ArgumentParser()
-	parser.add_argument('--path', type=str, default='Data_Img', help="Path to txt file")
+	parser.add_argument('--path_img', type=str, default='Data_Img', help="Path to Image Folder")
 	parser.add_argument('--ins_model', type=str, default='pointrend_resnet50.pkl', help="Path to Instance Model")
 	parser.add_argument('--seg_model', type=str, default='deeplabv3_xception65_ade20k.h5', help="Path to Instance Model")
 	parser.add_argument('--output_path', type=str, default='Data', help="Output path")
