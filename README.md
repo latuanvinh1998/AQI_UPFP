@@ -18,19 +18,17 @@
 ```sh
 python create_transaction.py --path_img Data_Img --ins_model pointrend_resnet50.pkl --seg_model deeplabv3_xception65_ade20k.h5 --out_path Data --pm25 Data/pm25.txt --haze True --haze_file Data/haze.txt
 ```
+### output contain data.csv is details for each database and data.txt for mining.
 
-### Step 2: Edit CmakeLists.txt
-
-*If you are using Jetson Nano:* `rm CMakeLists.txt && mv CMakeLists.txt.jetson-nano  CMakeLists.txt`
-
-```sh
-gedit CMakeLists.txt 
-```
-- *Change my username (tanphatnguyen) to your username*
-- *Change libtorch directory (line 10) (PC only)*
-- *Change TensorRT version (line 17 & 18) (PC only)*
-
-### Step 3: Compile & Run:
+### III. Mining Data
+- --input_file: Path to transaction file, example Data/data.txt.
+- --output_file: Path to output file.
+- --minSup: Minimum Support.
+- --maxPer: Maximum Period.
+  ```sh
+  python mining.py --input_file Data/data.txt --output_file Data/result.txt --minSup 0.2 --maxPer 0.2
+  ```
+### IV. Inference:
 
 ```sh
 cmake .
