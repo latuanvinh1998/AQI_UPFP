@@ -80,7 +80,7 @@ def inference(args):
 if __name__ == '__main__':
 	parser = argparse.ArgumentParser()
 	parser.add_argument('--input_image', type=str, default='test.jpg', help="Path to input image")
-	parser.add_argument('--cuda', type=int, default=2, help="GPU using")
+	parser.add_argument('--cuda', type=int, default=0, help="GPU using")
 	parser.add_argument('--model_path', type=str, default='Model/model.pth', help="Path to trained neural model")
 	parser.add_argument('--mined_pattern_path', type=str, default='PM_haze_MNR.txt', help="Path to mined patterns")
 	parser.add_argument('--ins_model', type=str, default='pointrend_resnet50.pkl', help="Path to Instance Model")
