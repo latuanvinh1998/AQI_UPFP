@@ -20,7 +20,7 @@
 ```sh
 python create_transaction.py --path_img Data_Img --ins_model pointrend_resnet50.pkl --seg_model deeplabv3_xception65_ade20k.h5 --out_path Data --pm25 Data/pm25.txt --haze True --haze_file Data/haze.txt
 ```
-### output contain data.csv is details for each database and data.txt for mining.
+##### output contain data.csv is details for each image and data.txt for mining.
 
 ### III. Mining Data
 - --input_file: Path to transaction file, example Data/data.txt.
