@@ -36,10 +36,15 @@ python create_transaction.py --path_img Data_Img --ins_model pointrend_resnet50.
  - --mined_pattern: Path to mined pattern file, example Data/result.txt or Data/PM.txt
  - --ins_model: path to instance segmentation model, download [PointRed Model](https://github.com/ayoolaolafenwa/PixelLib/releases/download/0.2.0/pointrend_resnet50.pkl)
  - --seg_model: path to instance segmentation model, download [here](https://github.com/ayoolaolafenwa/PixelLib/releases/download/1.3/deeplabv3_xception65_ade20k.h5)
+##### Output will printout, include PM25 level and period.
 
 ```sh
 python inference.py input_image Data_Img/20200228_121729A.jpg --model_path Model/model.pth --mined_pattern Data/result.txt --ins_model pointrend_resnet50.pkl --seg_model deeplabv3_xception65_ade20k.h5
 ```
 
-## V. Generate haze file:
+## V. Generate haze file & construct of files:
   - Input folder is define as Data_Img and must be same location with haze.R, the output will be haze.txt and use for create_transaction.py \[--haze_file]
+  - PM25.txt file contain image name associate with PM25 value and distinct by comma ",".
+
+### Source code is not fully optimize, if you have any problem or question, please contact direcly with me by Skype
+#### My skype: live:latuanvinh1998
