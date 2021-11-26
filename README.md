@@ -29,11 +29,14 @@ python create_transaction.py --path_img Data_Img --ins_model pointrend_resnet50.
   python mining.py --input_file Data/data.txt --output_file Data/result.txt --minSup 0.2 --maxPer 0.2
   ```
 ### IV. Inference:
+ - --input_image: Path to input image, example Data_Img/20200228_121729A.jpg
+ - --model_path: Trained model from train_efficient.py
+ - --mined_pattern: Path to mined pattern file, example Data/result.txt or Data/PM.txt
+ - --ins_model: path to instance segmentation model, download [PointRed Model](https://github.com/ayoolaolafenwa/PixelLib/releases/download/0.2.0/pointrend_resnet50.pkl)
+ - --seg_model: path to instance segmentation model, download [here](https://github.com/ayoolaolafenwa/PixelLib/releases/download/1.3/deeplabv3_xception65_ade20k.h5)
 
 ```sh
-cmake .
-make
-./main
+python inference.py input_image Data_Img/20200228_121729A.jpg --model_path Model/model.pth --mined_pattern Data/result.txt --ins_model pointrend_resnet50.pkl --seg_model deeplabv3_xception65_ade20k.h5
 ```
 
 ## References
